@@ -1,0 +1,32 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+.deps/
+.runtime_packages/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated hardware and measurement outputs
+build/
+backup/
+captures/
+artifacts/
+experiments/
+logs*/
+runs*/
+reports/
+*.npy
+*.npz
+*.bin
+*.elf
+*.hex
+*.map
+*.disasm
+*.i64
+*.idb
+*.log
+*.lock
+*.tmp
